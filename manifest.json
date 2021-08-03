@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Toggle Contatos",
+  "description": "Abrir e fechar menu de contatos",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/"],
+      "js": ["index.js"]
+    }
+  ]
+}
