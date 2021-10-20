@@ -1,6 +1,6 @@
 # Toggle contacts whats
 
-A simple browser extension for show and hiddne contacts.
+A simple browser extension for show and hidden contacts.
 
 ## Screenshots
 
