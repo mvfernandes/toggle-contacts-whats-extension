@@ -1,13 +1,13 @@
 btn = document.createElement('button');
 btn.id = 'vns-btn-menu';
-btn.style = 'top: 16px; left: 20px; background: teal; padding: 5px; color: #fff; z-index: 9999; position: fixed;';
-btn.innerHTML = 'Esconder Contatos';
+btn.style = 'top: 16px; left: 20px; background: teal; padding: 5px; color: #fff; z-index: 9999; position: fixed; border-radius: 10px;';
+btn.innerHTML = 'Hide';
 btn.onclick = function () {
-  if (btn.innerHTML.includes('Esconder Contatos')) {
-    btn.innerText = 'Mostrar Contatos';
+  if (btn.innerHTML.includes('Hide')) {
+    btn.innerText = 'Show';
     document.querySelector('#side').parentNode.style = 'display: none;';
   } else {
-    btn.innerText = 'Esconder Contatos';
+    btn.innerText = 'Hide';
     document.querySelector('#side').parentNode.style = 'display: block;';
   }
 };
